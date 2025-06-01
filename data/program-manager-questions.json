@@ -11,7 +11,7 @@
             "answer": "Ensuring technical feasibility is crucial. My process typically involves working closely with engineering leads and architects early in the ideation phase. We conduct thorough technical spikes or proof-of-concepts (POCs) to validate assumptions.\n\nI focus on understanding the underlying infrastructure, potential scaling issues, and existing technical debt. We also perform risk assessments, identifying potential blockers or resource constraints. This collaborative technical deep-dive helps us establish realistic timelines and resource plans, avoiding surprises down the line."
         }
     ],
-    "behaviourial": [
+    "behavioural": [
       {
             "id": "pmb_001",
             "question": "Tell me about a time you had to deal with a difficult stakeholder. How did you handle it?",
