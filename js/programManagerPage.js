@@ -18,7 +18,7 @@ async function loadProgramManagerContent() {
 
     try {
         // Fetch the JSON data containing all questions for Program Manager
-        const response = await fetch('data/program_manager_questions.json');
+        const response = await fetch('data/program-manager-questions.json');
         if (!response.ok) {
             // If the HTTP response is not OK (e.g., 404, 500), throw an error
             throw new Error(`HTTP error! status: ${response.status}`);
