@@ -110,13 +110,35 @@ function renderQuestionsForSection(containerElement, questionsArray, expandFirst
 
         // Add click event listener to the header to toggle content visibility
         header.addEventListener('click', () => {
-            const currentExpanded = header.getAttribute('aria-expanded') === 'true';
-            header.setAttribute('aria-expanded', !currentExpanded); // Toggle ARIA state
-            content.classList.toggle('hidden'); // Toggle 'hidden' class
-            content.setAttribute('aria-hidden', currentExpanded); // Toggle ARIA hidden state
-            // Rotate the icon based on expansion state
-            icon.style.transform = currentExpanded ? 'rotate(0deg)' : 'rotate(180deg)';
-        });
+        const isCurrentlyExpanded = header.getAttribute('aria-expanded') === 'true';
+
+        // *** NEW LOGIC START ***
+        // Close all other open accordions in this section
+        containerElement.querySelectorAll('.accordion-header[aria-expanded="true"]').forEach(otherHeader => {
+        // Ensure we don't close the current header if it's already expanded
+        if (otherHeader !== header) {
+            otherHeader.setAttribute('aria-expanded', 'false');
+            const otherContent = document.getElementById(otherHeader.getAttribute('aria-controls'));
+            if (otherContent) {
+                otherContent.classList.add('hidden');
+                otherContent.setAttribute('aria-hidden', 'true');
+            }
+            const otherIcon = otherHeader.querySelector('.accordion-icon');
+            if (otherIcon) {
+                otherIcon.style.transform = 'rotate(0deg)';
+            }
+        }
+    });
+    // *** NEW LOGIC END ***
+
+    // Toggle the clicked accordion's state (expand if it was closed, collapse if it was open)
+        header.setAttribute('aria-expanded', !isCurrentlyExpanded);
+        content.classList.toggle('hidden', isCurrentlyExpanded); // Use second arg to explicitly add/remove
+        content.setAttribute('aria-hidden', isCurrentlyExpanded); // Use second arg to explicitly add/remove
+
+    // Rotate the icon based on expansion state
+        icon.style.transform = isCurrentlyExpanded ? 'rotate(0deg)' : 'rotate(180deg)';
+});
 
         // Add keyboard support for accessibility (Enter and Space keys)
         header.addEventListener('keydown', (e) => {
