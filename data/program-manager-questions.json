@@ -1,1 +1,31 @@
-[]
+{
+    "technical": [
+        {
+            "id": "pmt_001",
+            "question": "Describe a challenging program you led. What were the technical hurdles?",
+            "answer": "In my current role, I led the integration of our legacy CRM with a new SaaS platform. The primary technical hurdle was reconciling data schemas and ensuring real-time data synchronization without disruption. I addressed this by...\n\nWe implemented a robust API gateway, designed a custom data transformation layer using [technology], and built automated testing suites to validate data integrity at every step. This required close collaboration with both the legacy and SaaS engineering teams, and we successfully achieved a seamless migration with zero data loss over a 6-month period."
+        },
+        {
+            "id": "pmt_002",
+            "question": "How do you ensure the technical feasibility of a proposed solution?",
+            "answer": "Ensuring technical feasibility is crucial. My process typically involves working closely with engineering leads and architects early in the ideation phase. We conduct thorough technical spikes or proof-of-concepts (POCs) to validate assumptions.\n\nI focus on understanding the underlying infrastructure, potential scaling issues, and existing technical debt. We also perform risk assessments, identifying potential blockers or resource constraints. This collaborative technical deep-dive helps us establish realistic timelines and resource plans, avoiding surprises down the line."
+        }
+    ],
+    "behaviourial": [
+      {
+            "id": "pmb_001",
+            "question": "Tell me about a time you had to deal with a difficult stakeholder. How did you handle it?",
+            "answer": "In a previous program, a key stakeholder was consistently resistant to adopting a new process, leading to delays. My approach was to first understand their concerns by scheduling a one-on-one meeting...\n\nI listened actively to their specific pain points and fears, which revolved around increased workload and lack of training. Instead of pushing the new process, I focused on demonstrating the direct benefits to their team and offered tailored support and training sessions...\n\nBy addressing their concerns directly, empathizing with their situation, and offering solutions, I was able to turn their resistance into buy-in. They eventually became an advocate for the new process within their department."
+      },
+      {
+            "id": "pmb_002",
+            "question": "How do you ensure the technical feasibility of a proposed solution?",
+            "answer": "Ensuring technical feasibility is crucial. My process typically involves working closely with engineering leads and architects early"
+      }
+    ],
+    "leadership": [
+      {
+            "id": "pml_001",
+            "question": "How do you motivate a disengaged program team?",
+            "answer": "Motivating a disengaged team requires identifying the root cause of the disengagement. I start by conducting individual check-ins to listen to their concerns, whether it's burnout, lack of clear goals, or feeling undervalued...\n\nOnce I understand the issues, I focus on re-establishing a clear vision and purpose for the program, connecting their individual contributions to the larger impact. I also look for opportunities to empower them with autonomy, provide challenging but achievable tasks, and celebrate small wins...\n\nFor instance, in one program, disengagement stemmed from a lack of recognition. I implemented a 'team spotlight' initiative, which significantly boosted morale and productivity. It's about building psychological safety and trust within the team."
+      },
