@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interview Prep - Home</title>
+    <title>Re-Skill: Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -50,7 +50,7 @@
 <body class="flex flex-col min-h-screen">
     <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center flex-wrap">
-            <a href="#" class="flex items-center space-x-2" onclick="navigateTo('home')">
+            <a href="index.html" class="flex items-center space-x-2">
                 <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zM3.75 16.5a.75.75 0 000 1.5h16.5a.75.75 0 000-1.5H3.75z" clip-rule="evenodd" />
                     <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12 3.75a8.25 8.25 0 100 16.5 8.25 8.25 0 000-16.5zM12 8.25a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5h-2.25a.75.75 0 01-.75-.75zM12 12.75a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5h-2.25a.75.75 0 01-.75-.75zM12 17.25a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5h-2.25a.75.75 0 01-.75-.75z" />
@@ -118,13 +118,13 @@
             <div id="message-box" class="mt-4 p-3 bg-blue-100 text-blue-800 rounded-md hidden"></div>
         </section>
 
-        <section id="about-section" class="w-full max-w-4xl bg-white p-8 rounded-lg shadow-md mt-16 mb-8">
-            <h2 class="text-3xl font-bold text-gray-800 mb-4">About Us</h2>
+        <section id="about-section" class="w-full max-w-4xl bg-white p-8 rounded-lg shadow-md mt-16 mb-8 mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">About Re-Skill Interview Prep</h2>
             <p class="text-gray-700 leading-relaxed">
-                Welcome to InterviewPrep, your ultimate destination for mastering job interviews and landing your dream role! We understand that preparing for interviews can be daunting, which is why we've designed a comprehensive platform to make the process easy, efficient, and effective.
+                Welcome to Re-Skill, your ultimate destination for mastering job interviews and landing your dream role! We understand that preparing for interviews can be daunting, which is why we've designed a comprehensive platform to make the process easy, efficient, and effective.
             </p>
             <p class="text-gray-700 leading-relaxed mt-4">
-                Our mission is to empower job seekers with the knowledge, tools, and confidence needed to excel in any interview scenario. Whether you're an aspiring Business Analyst, a seasoned Product Manager, a dedicated Scrum Master, or a strategic Program Manager, we've got you covered.
+                Our mission is to empower job seekers with the knowledge, tools, and confidence needed to excel in any interview scenario. Whether you're an aspiring Program Manager, Business Analyst, Product Owner, or Scrum Master, we've got you covered.
             </p>
             <p class="text-gray-700 leading-relaxed mt-4">
                 Explore our in-depth interview guides, leverage our intuitive resume builder, and dive into role-specific preparation materials tailored to various experience levels. We believe that with the right preparation, every interview can be a stepping stone to success. Join our community and take the next leap in your career journey!
@@ -132,61 +132,62 @@
         </section>
     </main>
 
-    <script>
-        // Function to simulate navigation
-        function navigateTo(page) {
-            const messageBox = document.getElementById('message-box');
-            messageBox.classList.remove('hidden', 'bg-red-100', 'text-red-800', 'bg-green-100', 'text-green-800'); // Clear previous states
-            messageBox.classList.add('bg-blue-100', 'text-blue-800'); // Default for navigation messages
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center text-sm">
+            &copy; 2025 Re-Skill. All rights reserved.
+        </div>
+    </footer>
 
-            switch (page) {
-                case 'home':
-                    messageBox.textContent = 'Navigating to Home Page... (Wireframe simulation)';
-                    break;
-                case 'interview-guide':
-                    messageBox.textContent = 'Navigating to Interview Guide Page... (Wireframe simulation)';
-                    break;
-                case 'resume-builder':
-                    messageBox.textContent = 'Navigating to Resume Builder Page... (Wireframe simulation)';
-                    break;
-                case 'business-analyst':
-                    messageBox.textContent = 'Navigating to Business Analyst Interview Prep Page... (Wireframe simulation)';
-                    break;
-                case 'product-owner-manager':
-                    messageBox.textContent = 'Navigating to Product Owner/Manager Interview Prep Page... (Wireframe simulation)';
-                    break;
-                case 'scrum-master':
-                    messageBox.textContent = 'Navigating to Scrum Master Interview Prep Page... (Wireframe simulation)';
-                    break;
-                case 'program-manager':
-                    messageBox.textContent = 'Navigating to Program Manager Interview Prep Page... (Wireframe simulation)';
-                    break;
-                case 'tpm': // Assuming 'Program Manager' maps to 'TPM Interview Prep' as per earlier mention
-                    messageBox.textContent = 'Navigating to TPM Interview Prep Page... (Wireframe simulation)';
-                    break;
-                default:
-                    messageBox.textContent = 'Navigation to an unknown page. (Wireframe simulation)';
+    <script>
+        // This navigateTo is for the header links and About section scroll
+        function navigateTo(page) {
+            if (page === 'home') {
+                window.location.href = 'index.html';
+            } else if (page === 'about-section') {
+                const aboutSection = document.getElementById('about-section');
+                if (aboutSection) {
+                    aboutSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            } else {
+                // For other pages like Interview Guides, Resume Builder, etc.
+                // You would typically redirect to their respective HTML files.
+                // For example: window.location.href = `${page}.html`;
+                console.log(`Placeholder: Would navigate to ${page} page.`);
             }
-            messageBox.classList.remove('hidden');
-            setTimeout(() => { messageBox.classList.add('hidden'); }, 3000); // Hide after 3 seconds
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            const jumpInButton = document.getElementById('jump-in-button'); // This is now the "Search" button
+            const jumpInButton = document.getElementById('jump-in-button');
             const roleDropdown = document.getElementById('role-dropdown');
             const feedbackTextbox = document.getElementById('feedback-textbox');
             const submitFeedbackButton = document.getElementById('submit-feedback-button');
             const messageBox = document.getElementById('message-box');
 
-            // Handle "Search" button click
+            // Handle "Search" button click for role redirection
             jumpInButton.addEventListener('click', () => {
                 const selectedRole = roleDropdown.value;
                 if (selectedRole) {
-                    navigateTo(selectedRole);
+                    // Construct the filename based on the selected role value
+                    let targetPage = `${selectedRole}.html`;
+
+                    // Handle specific mappings if page names differ from dropdown values
+                    // For example, if "product-owner-manager" should go to "product-manager.html"
+                    if (selectedRole === 'Program Manager') {
+                        targetPage = 'program-manager.html';
+                    }
+                    // Add more specific mappings if needed (e.g., 'tpm' for 'program-manager')
+                    // if (selectedRole === 'program-manager') {
+                    //     targetPage = 'tpm-interview-prep.html';
+                    // }
+
+                    // Redirect the user to the constructed page URL
+                    window.location.href = targetPage;
+
                 } else {
+                    // Display an error message if no role is selected
                     messageBox.classList.remove('hidden', 'bg-blue-100', 'text-blue-800', 'bg-green-100', 'text-green-800');
                     messageBox.classList.add('bg-red-100', 'text-red-800');
-                    messageBox.textContent = 'Please select a role before searching!'; // Updated message
+                    messageBox.textContent = 'Please select a role before searching!';
                     messageBox.classList.remove('hidden');
                     setTimeout(() => { messageBox.classList.add('hidden'); }, 3000);
                 }
@@ -212,3 +213,4 @@
     </script>
 </body>
 </html>
+
