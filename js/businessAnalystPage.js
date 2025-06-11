@@ -84,7 +84,9 @@ function renderQuestionsForSection(containerElement, questionsArray, expandFirst
 
         // Create the span for the question text
         const questionText = document.createElement('span');
-        questionText.textContent = q.question;
+        // --- START OF CHANGES FOR NUMBERING QUESTIONS ---
+        questionText.textContent = `${index + 1}. ${q.question}`; // Add question number
+        // --- END OF CHANGES FOR NUMBERING QUESTIONS ---
 
         // Create the span for the accordion icon (arrow)
         const icon = document.createElement('span');
