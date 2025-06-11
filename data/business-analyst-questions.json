@@ -1,0 +1,33 @@
+{
+    "technical": [
+        {
+            "id": "bat_001",
+            "question": "What is INVEST?",
+            "answer": "INVEST is an abbreviation of Independent, Negotiable, Valuable, Estimable, Sized appropriately, and Testable. This term is used by business analysts and project managers to deliver quality services and products"
+        },
+        {
+            "id": "bat_002",
+            "question": "Explain about the MoSCoW",
+            "answer": "MoSCoW stands for Must or Should, Could or Would. A business analyst should implement this process by comparing every demand with other needs to prioritize the framework requirements. For example, is this requirement a must-have or should have?"
+        }
+    ],
+    "behavioural": [
+      {
+            "id": "bab_001",
+            "question": "What are core competencies of Business Analyst?",
+            "answer": "You can answer this by stating that a business analyst must have exceptional communication and negotiation skills. Analytical thinking, problem-solving, and decision making are also vital attributes. A business analyst should have industry knowledge, business process management skills along with technical proficiency."
+      },
+      {
+            "id": "bab_002",
+            "question": "How do you ensure the technical feasibility of a proposed solution?",
+            "answer": "Ensuring technical feasibility is crucial. My process typically involves working closely with engineering leads and architects early"
+      }
+    ],
+    "leadership": [
+      {
+            "id": "bal_001",
+            "question": "How do you motivate a disengaged program team?",
+            "answer": "Motivating a disengaged team requires identifying the root cause of the disengagement. I start by conducting individual check-ins to listen to their concerns, whether it's burnout, lack of clear goals, or feeling undervalued...\n\nOnce I understand the issues, I focus on re-establishing a clear vision and purpose for the program, connecting their individual contributions to the larger impact. I also look for opportunities to empower them with autonomy, provide challenging but achievable tasks, and celebrate small wins...\n\nFor instance, in one program, disengagement stemmed from a lack of recognition. I implemented a 'team spotlight' initiative, which significantly boosted morale and productivity. It's about building psychological safety and trust within the team."
+      }
+    ]
+}
