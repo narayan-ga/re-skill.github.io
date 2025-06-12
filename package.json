@@ -1,0 +1,9 @@
+{
+  "name": "re-skill-website",
+  "version": "1.0.0",
+  "description": "Interview prep website for Re-Skill.",
+  "dependencies": {
+    "firebase-admin": "^11.11.0"
+  },
+  "private": true
+}
