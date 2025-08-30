@@ -9,7 +9,27 @@
             "id": "pmt_002",
             "question": "How do you ensure the technical feasibility of a proposed solution?",
             "answer": "Ensuring technical feasibility is crucial. My process typically involves working closely with engineering leads and architects early in the ideation phase. We conduct thorough technical spikes or proof-of-concepts (POCs) to validate assumptions.\n\nI focus on understanding the underlying infrastructure, potential scaling issues, and existing technical debt. We also perform risk assessments, identifying potential blockers or resource constraints. This collaborative technical deep-dive helps us establish realistic timelines and resource plans, avoiding surprises down the line."
-        }
+        },
+        {
+            "id": "pmt_003",
+            "question": "Explain how internet search works",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmt_004",
+            "question": "Explain a product you built which has scaled for million users and explain the technical architecture behind it and your role on it",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmt_005",
+            "question": "Explain how cloud computing works with an example from your current project. Evaluate key decisions taken while inmplementing cloud in your current project",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmt_006",
+            "question": "How do you priorotise the requirements and what method you use for prioritization?",
+            "answer": "TBD"
+      }
     ],
     "behavioural": [
       {
@@ -21,6 +41,76 @@
             "id": "pmb_002",
             "question": "How do you ensure the technical feasibility of a proposed solution?",
             "answer": "Ensuring technical feasibility is crucial. My process typically involves working closely with engineering leads and architects early"
+      },
+        {
+            "id": "pmb_003",
+            "question": "How do you plan and drive technical projects end to end with bigger picture in mind?",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_004",
+            "question": "How do you plan the requirements for the project? Explain with an example",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_005",
+            "question": "How do you identify risks and form the mitigation plans?",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_006",
+            "question": "How do you manage schedules/iterations for delivering the project incrementally",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_007",
+            "question": "How do you identify stakeholder? Explain more about stakeholder communication in your current project",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_008",
+            "question": "Explain how you are handling cross functional colloboration in your current teams",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_009",
+            "question": "How do you influence without authority? And how do you convince technical teams for your decisions",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_010",
+            "question": "How do you track the progress of the project/program? What tools and techniques you use",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_011",
+            "question": "What are the different reports you handle in your current project",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_012",
+            "question": "Do you rely on engineering teams for technical discussions. If not, will you take a call on engineering discussions",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_013",
+            "question": "Explain a situation where you handled project with stakeholders from different countries",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_014",
+            "question": "How do you motivate cross functional teams and get things done?",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_015",
+            "question": "How do you handle change/trade-off management and how do you track the project post change",
+            "answer": "TBD"
+      },
+        {
+            "id": "pmb_016",
+            "question": "How do you handle competing priorities and build consensus among relevant stakeholders",
+            "answer": "TBD"
       }
     ],
     "leadership": [
